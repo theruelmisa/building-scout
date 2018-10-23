@@ -7,7 +7,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.3;
-  color: #444;
+  color: #333;
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
@@ -18,6 +18,53 @@ body {
   margin: 0 auto;
 }
 
+/* HEADER HERO AREA */
+
 header {
-  background: 
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(50, 50, 50, .7)), url(./img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  margin: 0 0 25px 0;
+  color: #fafafa; 
+  font-weight: 400;
+  font-size: 300%;
+  letter-spacing: 1.2px;
+  word-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  margin-right: 10px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #fafafa;
+  text-transform: uppercase;
+  border-radius: 12px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #5883D6;
+  border: 2px solid #5883D6;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 2px solid #5883D6;
 }
