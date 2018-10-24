@@ -77,4 +77,4 @@ This is pretty much a mock-up to practice jQuery, CSS, and HTML. It is also a wa
 
 ### Author ###
 
-Ruel Alfonso Misa
+_Ruel Alfonso Misa_
