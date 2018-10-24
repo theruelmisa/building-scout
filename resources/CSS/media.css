@@ -1,0 +1,109 @@
+/* Large tablets to small desktop/laptop screens */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row { padding: 0 2%; }
+}
+
+
+/* Small tablets to large tablets */
+@media only screen and (max-width: 1023px) {
+  body { font-size: 18px; }
+  section { padding: 60px 0; }
+
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .neighborhood-photo img { height: 300px; }
+  .link-to-search { height: 305px; }
+
+  .link-to-search a {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
+  .steps-box { margin-top: 10px; }
+  .steps-box:last-child { margin-top: 10px; }
+  .how-to-step { margin-bottom: 40px; }
+  .how-to-step:last-of-type { margin-bottom: 60px; }
+  
+  .contact-form { width: 80%; }
+
+}
+
+
+/* Large mobile devices to small tablets */
+@media only screen and (max-width: 767px) {
+
+  body { font-size: 16px; }
+  section { padding: 30px 0; }
+  .row,
+  .hero-text-box { padding: 0 4%; }
+
+  .col { width: 100%; }
+
+  .main-nav { display: none; }
+
+  .long-copy { 
+    width: 100%;
+    margin: 0;
+  }
+
+  h1 { font-size: 190%; }
+  h2 { font-size: 160%; }
+
+  .neighborhood-showcase li {
+    float: none;
+    width: 90%;
+    margin: 5px auto;
+  }
+  .neighborhood-photo img { height: 60vh; }
+  .link-to-search { height: auto; }
+  .link-to-search a { margin: 10%; }
+
+  .how-to-step div {
+    height: 40px;
+    width: 40px;
+    padding: 6px;
+    margin-right: 15px;
+    font-size: 120%;
+  }
+
+  .how-to-step { margin-bottom: 30px; }
+  .how-to-step:last-of-type { margin-bottom: 40px; }
+
+  .btn-app img { height: 40px; }
+  .search-bar { margin-top: 30px; }
+  
+  .search-bar label {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .search-bar input {
+    display: block;
+    width: 70%;
+    margin: 20px auto;
+  }
+
+  .search-bar a { margin: 0 auto; }
+  .footer-nav { display: none; }
+  .social-nav { 
+    text-align: center; 
+    float: none; 
+  }
+}
+
+
+/* Small mobile devices */
+@media only screen and (max-width: 480px) {
+
+  section { padding: 25px 0; }
+  .contact-form { width: 100%; }
+}
