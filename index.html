@@ -19,9 +19,9 @@
             <div class="row">
                 <img src="./resources/img/logo.png" alt="Building Scout Logo" class="logo">
                 <ul class="main-nav">
-                    <li><a href="#">Reviews</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#about-us">About us</a></li>
+                    <li><a href="#contact-us">Contact us</a></li>
                 </ul>
             </div>
         </nav>
@@ -35,7 +35,7 @@
 
     </header>
 
-    <section class="section-main-features">
+    <section class="section-main-features" id="about-us">
         <div class="row">
             <h2>Main Feature Title</h2>
             <p class="long-copy">
@@ -103,7 +103,7 @@
             </li>
             <li>
                 <div class="link-to-search">
-                    <a href="#" class="btn btn-dark-ghost">See More Neighborhoods</a>
+                    <a href="#" class="btn btn-dark-ghost">Scout the Neighborhood</a>
                 </div>
             </li>
         </ul>
@@ -144,7 +144,7 @@
         </div>
     </section>
 
-    <section class="section-sample-reviews">
+    <section class="section-sample-reviews" id="reviews">
         <div class="row">
             <h2>Some Building Reviews</h2>
         </div>
@@ -194,14 +194,99 @@
         <div class="row">
             <h2>Scout a Building</h2>
 
-            <form class="search-bar" id="search-scroll">
+            <form method="POST" action="#" class="search-bar" id="search-scroll">
                 <label>Building Address</label>
-                <input type="text" name="address" required>
+                <input type="text" name="address" placeholder="address, borough" required>
                 <a href="#" class="btn btn-full">Submit</a> 
             </form>
         </div>
 
     </section>
+
+    <section class="section-contact-form" id="contact-us">
+        <div class="row">
+            <h2>Please share your thoughts</h2>
+        </div>
+        <div class="row">
+            <form method="POST" action="#" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="hear-us">How did you hear about us?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="hear-us" id="hear-us">
+                            <option value="google" selected>Google</option>
+                            <option 
+                            value="twitter">Twitter</option>
+                            <option value="facebook">Facebook</option>
+                            <option value="instagram">Instagram</option>
+                            <option value="friends">Friends</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Your message</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" placeholder="Enter message here"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">Back to top</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">iOS App</a></li>
+                    <li><a href="#">Android App</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-nav">
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>
+                Copyright &copy; 2018 by Building Scout. All rights reserved.
+            </p>
+        </div>
+
+    </footer>
 
 </body>
 </html>
