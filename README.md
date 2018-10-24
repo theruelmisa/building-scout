@@ -19,6 +19,8 @@ All users will retain their anonimity.
 
 **Video**
 
+_Please click on the image below to load video of project_
+
 [![Building Scout Video](./resources/img/video-img.png)](https://www.useloom.com/share/d6b57903360b4d5bbd864d389dfcb25f)
 
 ### Technologies Used ###
