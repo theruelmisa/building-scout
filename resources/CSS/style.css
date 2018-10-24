@@ -448,3 +448,74 @@ cite {
 .contact-form textarea {
   width: 100%;
 }
+
+/*------------------------------*/
+/*-------------FOOTER-----------*/
+/*------------------------------*/
+
+footer {
+  background-color: #282B32;
+  padding: 45px;
+  font-size: 80%;
+}
+
+.footer-nav {
+  float: left;
+}
+
+.social-nav {
+  float: right;
+}
+
+.footer-nav li,
+.social-nav li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.footer-nav li:last-child,
+.social-nav li:last-child {
+  margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-nav li a:link,
+.social-nav li a:visited {
+  color: #A6AFC0;
+  transition: color 0.6s;   
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #fafafa;
+}
+
+.social-nav li a:link,
+.social-nav li a:visited {
+  font-size: 160%;
+}
+
+.fa-twitter,
+.fa-facebook-square,
+.fa-instagram {
+  transition: color 0.6s;
+}
+
+.fa-twitter:hover {
+  color: #55acee;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+.fa-instagram:hover {
+  color: #c32aa3;
+}
+
+footer p {
+  color: #A6AFC0;
+  text-align: center;
+  margin-top: 20px;
+}
