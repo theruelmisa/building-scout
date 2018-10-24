@@ -16,6 +16,15 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+.clearfix {zoom: 1}
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 /*------------------------------*/
 /*----------REUSABLE------------*/
 /*------------------------------*/
@@ -128,10 +137,17 @@ h3 {
   border: 2px solid #5883D6;
 }
 
+.btn-dark-ghost:link,
+.btn-dark-ghost:visited {
+  border: 2px solid #09358D;
+  color: #09358D;
+}
+
 .btn:hover, 
 .btn:active {
   background-color: #3d6fcf;
   border-color: #3d6fcf;
+  color: #fafafa;
 }
 
 /*------------------------------*/
@@ -188,4 +204,147 @@ header {
   border-color: #5883D6;
 }
 
+/*------------------------------*/
+/*------------FEATURES----------*/
+/*------------------------------*/
+
+.section-features .long-copy {
+  margin-bottom: 30px;
+}
+
+/*------------------------------*/
+/*-----FEATURE NEIGHBORHOODS----*/
+/*------------------------------*/
+
+.section-neighborhoods {
+  padding: 0;
+}
+
+.neighborhood-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.neighborhood-showcase li {
+  display: block;
+  float: left;
+  width: 33.33%;
+}
+
+.neighborhood-photo,
+.link-to-search {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.neighborhood-photo {
+  background-color: #222;
+}
+
+.neighborhood-photo img {
+  width: 100%;
+  height: 650px; 
+  /* Wanted to use auto for height but need beter images */
+  opacity: 0.7;
+  transform: scale(1.15);
+  transition: transform 0.7s, opacity .85s;
+}
+
+.link-to-search {
+  height: 655px;
+  text-align: center;
+}
+
+.link-to-search a {
+  margin-top: 50%;
+}
+
+
+
+.neighborhood-photo img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/*------------------------------*/
+/*---------STEPS SECTION--------*/
+/*------------------------------*/
+
+.section-steps {
+  background-color: #f4f4f4;
+}
+
+.steps-box:first-child {
+  text-align: right;
+  padding-right: 1%;
+  margin-top: 30px;
+}
+
+.steps-box:last-child {
+  padding-left: 1%;
+  margin-top: 70px;
+}
+
+.mobile-img {
+  width: 100%;
+}
+
+.how-to-step {
+  margin-bottom: 50px;
+}
+
+.how-to-step:last-of-type {
+  margin-bottom: 80px;
+}
+
+.how-to-step div {
+  display: block;
+  color: #375DA8;
+  border: 2px solid #375DA8;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  padding: 8px;
+  text-align: center;
+  font-size: 150%;
+  float: left;
+  margin-right: 25px;
+}
+
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 20px;
+}
+
+/*------------------------------*/
+/*--------SEARCH SECTION--------*/
+/*------------------------------*/
+
+.search-bar {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.search-bar label {
+  margin-right: 15px;
+  font-weight: 700;
+}
+
+.search-bar input {
+  margin-right: 25px;
+  border: none;
+  border: 1px solid #ddd;
+}
+
+.search-bar input[type="text"] {
+  color: #333;
+  padding: 5px 2px;
+  font-size: 90%;
+}
+
+.search-bar input:focus {
+  outline-color: #375DA8;
+}
 
