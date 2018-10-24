@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./vendors/CSS/flaticon.css">
     <link rel="stylesheet" href="./vendors/CSS/normalize.css">
     <link rel="stylesheet" href="./vendors/CSS/grid.css">
+    <link rel="stylesheet" href="./vendors/CSS/animate.css">
     <link rel="stylesheet" href="./resources/CSS/style.css">
     <link rel="stylesheet" href="./resources/CSS/media.css">
     <title>Building Scout</title>
@@ -19,24 +20,28 @@
         <nav>
             <div class="row">
                 <img src="./resources/img/logo.png" alt="Building Scout Logo" class="logo">
-                <ul class="main-nav">
-                    <li><a href="#reviews">Reviews</a></li>
+                <img src="./resources/img/logo.png" alt="Building Scout Logo" class="sticky-logo">
+                <ul class="main-nav js--main-nav">
+                    <li><a href="#reviews" >Reviews</a></li>
                     <li><a href="#about-us">About us</a></li>
                     <li><a href="#contact-us">Contact us</a></li>
                 </ul>
+                <a class="mobile-nav-toggle js--nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </a>
             </div>
         </nav>
 
         <div class="hero-text-box">
             <h1>Some hero text later on for buildings.</h1>
-            <a class="btn btn-full" href="#search-scroll">Scout</a>
-            <a class="btn btn-ghost" href="#">Read more</a>
+            <a class="btn btn-full js--scroll-to-search" href="#">Scout</a>
+            <a class="btn btn-ghost js--scroll-to-features" href="#">Read more</a>
         </div>
 
 
     </header>
 
-    <section class="section-main-features" id="about-us">
+    <section class="section-main-features js--section-main-features" id="about-us">
         <div class="row">
             <h2>Main Feature Title</h2>
             <p class="long-copy">
@@ -44,7 +49,7 @@
             </p>
         </div>
 
-        <div class="row">
+        <div class="row js--wp-1">
             <div class="col span-1-of-3 box">
                 <i class="flaticon-search icon-big" ></i>
                 <h3>Some feature</h3>
@@ -117,7 +122,7 @@
         </div>
         <div class="row">
             <div class="col span-1-of-2 steps-box">
-                <img src="./resources/img/mobile.png" alt="Building Scout app" class="mobile-img">
+                <img src="./resources/img/mobile.png" alt="Building Scout app" class="mobile-img js--wp-2">
             </div>
             <div class="col span-1-of-2 steps-box">
                 <div class="how-to-step">
@@ -192,7 +197,7 @@
     </section>
 
     <section class="section-scout-buildings">
-        <div class="row">
+        <div class="row js--wp-3">
             <h2>Scout a Building</h2>
 
             <form method="POST" action="#" class="search-bar" id="search-scroll">
@@ -289,5 +294,8 @@
 
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./vendors/JS/jquery.waypoints.min.js"></script>
+    <script src="./resources/JS/scripts.js"></script>
 </body>
 </html>

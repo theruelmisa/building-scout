@@ -223,6 +223,16 @@ header {
   margin-top: 20px;
 }
 
+.sticky-logo { 
+  display: none; 
+  height: 50px;
+  width: auto;
+  float: left;
+  margin: 5px 0;
+}
+
+
+/* Main nav */
 .main-nav {
   float: right;
   list-style: none;
@@ -249,6 +259,41 @@ header {
 .main-nav li a:active {
   border-color: #5883D6;
 }
+
+/* Mobile nav */
+.mobile-nav-toggle {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-toggle i {
+  font-size: 200%;
+  color: #fafafa;
+}
+
+/* Sticky nav */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .9);
+  box-shadow: 0 2px 2px #efefef;
+  z-index: 9999;
+}
+
+.sticky .main-nav { margin-top: 20px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 17px 0;
+  color: #09358D;  
+}
+
+.sticky .logo { display: none; }
+.sticky .sticky-logo { display: block; }
 
 /*------------------------------*/
 /*------------FEATURES----------*/
@@ -520,4 +565,21 @@ footer p {
   color: #A6AFC0;
   text-align: center;
   margin-top: 20px;
+}
+
+/*------------------------------*/
+/*----------ANIMATIONS----------*/
+/*------------------------------*/
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+  opacity: 0;
+  animation-duration: 1s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+  opacity: 1;
 }

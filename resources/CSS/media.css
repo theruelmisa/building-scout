@@ -48,6 +48,29 @@
   .col { width: 100%; }
 
   .main-nav { display: none; }
+  .mobile-nav-toggle { display: inline-block; }
+  .main-nav { 
+    float: left; 
+    margin-top: 35px;
+    margin-left: 25px;
+  }
+
+  .main-nav li { display: block; }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: none;
+    padding: 10px 0;
+    font-size: 100%;
+  }
+
+  .sticky .main-nav { margin-top: 10px; }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited { padding: 10px 0; }
+  .sticky .mobile-nav-toggle { margin-top: 10px }
+  .sticky .mobile-nav-toggle i { color: #333; }
 
   .long-copy { 
     width: 100%;
