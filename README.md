@@ -11,7 +11,7 @@
 1. Credits
 1. Author 
 
-#### Project Description ####
+### Project Description ###
 
 The web app is basically designed for users who want to research about an apartment building before they move into it. You have apps like Streeteasy (https://streeteasy.com/) in order to look for places for rent. This app will provide reviews from previous or current tenants about that apartment building. Think of it as Glassdoor but for apartment buildings. 
 
@@ -22,7 +22,7 @@ All users will retain their anonimity.
 
 **Video**
 
-#### Technologies Used ####
+### Technologies Used ###
 
 The following technologies were used to accomplish this project:
 
@@ -31,7 +31,7 @@ The following technologies were used to accomplish this project:
 * CSS3
 * HTML5
 
-#### Components ####
+### Components ###
 
 **Header** 
   * Contains the Logo, Main Navigation, Hero Image, Hero text, and call-to-action buttons.
@@ -58,23 +58,23 @@ The following technologies were used to accomplish this project:
   * Contains the minor navigation links. social media links, and the copyright. 
 
 
-#### Author's Notes ####
+### Author's Notes ###
 
 This is pretty much a mock-up to practice jQuery, CSS, and HTML. It is also a way for me to solidify my knowledge on web design principles such as colors, typography, and whitespace. 
 
-#### Credits ####
+### Credits ###
 
 **Photos**
 
-**Hero Photo** by __Dorian Mongel__ on Unsplash
-**Apartment Photo** by __Luke van Zyl__ on Unsplash
-**Williamsburg** Photo by __Thought Catalog__ on Unsplash
-**Chelsea Photo** by __ActionVance__ on Unsplash
-**Flatiron Photo** by __Nextvoyage__ from Pexels
-**Dumbo Photo** by __kyler trautner__ on Unsplash
-**Soho Photo** by __Heather Shevlin__ on Unsplash
+* **Hero Photo** by _Dorian Mongel_ on Unsplash
+* **Apartment Photo** by _Luke van Zyl_ on Unsplash
+* **Williamsburg** Photo by _Thought Catalog_ on Unsplash
+* **Chelsea Photo** by _ActionVance_ on Unsplash
+* **Flatiron Photo** by _Nextvoyage_ from Pexels
+* **Dumbo Photo** by _kyler trautner_ on Unsplash
+* **Soho Photo** by _Heather Shevlin_ on Unsplash
 
 
-#### Author ####
+### Author ###
 
 Ruel Alfonso Misa
