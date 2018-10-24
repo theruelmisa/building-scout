@@ -43,6 +43,16 @@ section {
 }
 
 /*------------------------------*/
+/*-------------LINKS------------*/
+/*------------------------------*/
+
+a:link,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*------------------------------*/
 /*---------HEADINGS-------------*/
 /*------------------------------*/
 
@@ -159,6 +169,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
 }
 
@@ -208,8 +219,14 @@ header {
 /*------------FEATURES----------*/
 /*------------------------------*/
 
-.section-features .long-copy {
+.section-main-features .long-copy {
   margin-bottom: 30px;
+}
+
+.section-main-features .box h3,
+.section-main-features .box p,
+.section-main-features .box .icon-big {
+  text-align: center;
 }
 
 /*------------------------------*/
@@ -346,5 +363,48 @@ header {
 
 .search-bar input:focus {
   outline-color: #375DA8;
+}
+
+/*------------------------------*/
+/*-------BUILDING REVIEWS-------*/
+/*------------------------------*/
+
+.section-sample-reviews {
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(50, 50, 50, .3)), url(./img/apartment.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.section-sample-reviews h2:after {
+  background-color: #fff;
+}
+
+.user-review {
+  display: block;
+  padding: 5%;
+  margin-bottom: 30px;
+  font-size: 80%;
+}
+
+blockquote {
+  padding: 5%;
+  line-height: 145%;
+  position: relative;
+}
+
+blockquote:before { 
+  content:"\201C";
+  font-size: 400%;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+cite {
+  font-size: 85%;
+  padding: 5%;
+  margin-top: 30px;
 }
 
