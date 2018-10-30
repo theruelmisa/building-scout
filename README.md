@@ -21,7 +21,10 @@ All users will retain their anonimity.
 
 _Please click on the image below to load video of project_
 
-[![Building Scout Video](./resources/img/video-img.png)](https://www.useloom.com/share/a8b9928b9773440184302154fdae9286)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=-r-Tvb5xrN8" target="_blank"><img src="public/images/Home.png" 
+alt="journal analytics demo link to youtube" width="300" height="200"/></a>
+
+[![Building Scout Video](./resources/img/video-img.png)](https://www.useloom.com/share/1f79bbfc47ae49f28e61a68ff5b116a3)
 
 ### Technologies Used ###
 
