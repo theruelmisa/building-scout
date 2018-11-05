@@ -75,6 +75,9 @@ This is pretty much a mock-up to practice jQuery, CSS, and HTML. It is also a wa
 * **Dumbo Photo** by _kyler trautner_ on Unsplash
 * **Soho Photo** by _Heather Shevlin_ on Unsplash
 
+**Design**
+
+**Design Inspiraton** from _Jonas Schmedtmann_ of https://www.codingheroes.io/
 
 ### Author ###
 
