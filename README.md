@@ -1,6 +1,6 @@
 # BUILDING SCOUT #
 
-**Building Scout** is a Single-page web application built using CSS, HTML, and JavaScript(jQuery). It is designed for users who are planning to move into a new apartment. 
+**Building Scout** is a landing page layout built using CSS, HTML, and JavaScript(jQuery). It is designed for a company that provides information to users who are planning to move into a new apartment. 
 
 ## Table of Contents ##
 
@@ -13,7 +13,9 @@
 
 ### Project Description ###
 
-The web app is basically designed for users who want to research about an apartment building before they move into it. You have apps like Streeteasy (https://streeteasy.com/) in order to look for places for rent. This app will provide reviews from previous or current tenants about that apartment building. Think of it as Glassdoor but for apartment buildings. 
+The landing page is basically designed to provide users an easier access to the company's services. Of course, the navigation part is just an anchor for now, given that it is a single page layout. 
+
+The app idea itself is basically designed for users who want to research about an apartment building before they move into it. You have apps like Streeteasy (https://streeteasy.com/) in order to look for places for rent. This app will provide reviews from previous or current tenants about that apartment building. Think of it as Glassdoor but for apartment buildings. 
 
 All users will retain their anonimity.
 
