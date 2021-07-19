@@ -19,7 +19,7 @@ The app idea itself is basically designed for users who want to research about a
 
 All users will retain their anonimity.
 
-** Project Link **
+**Project Link**
 
 https://buildingscout.netlify.app/
 
