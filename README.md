@@ -1,4 +1,4 @@
-# BUILDING SCOUT #
+# BUILDING SCOUT # [![Netlify Status](https://api.netlify.com/api/v1/badges/436e8981-2e13-4b19-b36f-2904d626a20c/deploy-status)](https://app.netlify.com/sites/buildingscout/deploys)
 
 **Building Scout** is a landing page layout built using CSS, HTML, and JavaScript(jQuery). It is designed for a company that provides information to users who are planning to move into a new apartment. 
 
@@ -19,11 +19,9 @@ The app idea itself is basically designed for users who want to research about a
 
 All users will retain their anonimity.
 
-**Video**
+** Project Link **
 
-_Please click on the image below to load video of project_
-
-[![Building Scout Video](./resources/img/video-img.png)](https://www.useloom.com/share/1f79bbfc47ae49f28e61a68ff5b116a3)
+https://buildingscout.netlify.app/
 
 ### Technologies Used ###
 
@@ -76,10 +74,6 @@ This is pretty much a mock-up to practice jQuery, CSS, and HTML. It is also a wa
 * **Flatiron Photo** by _Nextvoyage_ from Pexels
 * **Dumbo Photo** by _kyler trautner_ on Unsplash
 * **Soho Photo** by _Heather Shevlin_ on Unsplash
-
-**Design**
-
-**Design Inspiraton** from _Jonas Schmedtmann_ of https://www.codingheroes.io/
 
 ### Author ###
 
